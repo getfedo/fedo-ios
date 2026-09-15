@@ -33,4 +33,6 @@ struct MyApp: App {
 }
 ```
 
+See [docs.getfedo.com](https://docs.getfedo.com/guide/getting-started/) for documentation and walk through
+
 See [CHANGELOG.md](CHANGELOG.md) for release notes.
