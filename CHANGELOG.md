@@ -7,22 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
+## [0.3.0-beta.1] - 2026-09-15
 
-- fedo-sdk-ios-tns.5
-  - Cut the `0.1.0` section from the initial feature set; `fedoSDKVersion` already `0.1.0`.
-- fedo-sdk-ios-tns.3
-  - Public `LICENSE` in `getfedo/fedo-ios` reviewed and approved.
-- fedo-sdk-ios-tns.4
-  - Pushed the binary-only package skeleton (`Package.swift`, README, LICENSE, CHANGELOG) to public `github.com/getfedo/fedo-ios`.
-- fedo-sdk-ios-tns.2
-  - `scripts/release.sh`: code signing is now optional; `FEDO_SIGN_IDENTITY` unset ships an unsigned XCFramework (no Apple Developer account yet).
-  - `scripts/release.sh`: release tag is pushed to every git remote, not only `origin`.
-  - Release docs in `CLAUDE.md` / `AGENTS.md` updated to match.
-
-## [0.1.0] - 2026-09-14
-
-Initial release.
+First public beta.
 
 ### Added
 
@@ -39,7 +26,7 @@ Initial release.
 
 - `FeedbacksView` — the feedback board: list, detail, comments, and composer. Pushes
   onto the enclosing `NavigationStack`.
-- `presentFeedbacks(isPresented:)` — a `View` modifier that presents a standalone
+- `presentCreateFeedback(isPresented:)` — a `View` modifier that presents a standalone
   feedback composer as a sheet, for lightweight "Suggest a feature" entry points.
 - Feedback list with status filters, sorting by status then votes then recency, and
   swipe-to-refresh.
@@ -76,11 +63,6 @@ Initial release.
 - DocC documentation on the full public API.
 - Swift 6 language mode, iOS 16+.
 
-### Changed
 
-- fedo-sdk-ios-tns.9
-  - Documented the release process (version bump, changelog, `scripts/release.sh`, env vars) in `CLAUDE.md` and `AGENTS.md`.
-  - Noted why the module is `FedoKit` and the library product is dynamic.
-
-[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.1.0...HEAD
-[0.1.0]: https://github.com/getfedo/fedo-ios/releases/tag/0.1.0
+[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.3.0-beta.1...HEAD
+[0.3.0-beta.1]: https://github.com/getfedo/fedo-ios/releases/tag/0.3.0-beta.1
