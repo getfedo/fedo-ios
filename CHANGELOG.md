@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.3.0-beta.1] - 2026-09-15
+- Rename `FeedbacksView` to `FedoFeedbackView`
+
+## [0.4.0-beta.1] - 2026-09-17
 
 First public beta.
 
@@ -26,7 +28,7 @@ First public beta.
 
 - `FeedbacksView` — the feedback board: list, detail, comments, and composer. Pushes
   onto the enclosing `NavigationStack`.
-- `presentCreateFeedback(isPresented:)` — a `View` modifier that presents a standalone
+- `presentFedoCreateFeedback(isPresented:)` — a `View` modifier that presents a standalone
   feedback composer as a sheet, for lightweight "Suggest a feature" entry points.
 - Feedback list with status filters, sorting by status then votes then recency, and
   swipe-to-refresh.
@@ -64,5 +66,5 @@ First public beta.
 - Swift 6 language mode, iOS 16+.
 
 
-[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.3.0-beta.1...HEAD
-[0.3.0-beta.1]: https://github.com/getfedo/fedo-ios/releases/tag/0.3.0-beta.1
+[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.1...HEAD
+[0.4.0-beta.1]: https://github.com/getfedo/fedo-ios/releases/tag/0.4.0-beta.1
