@@ -6,12 +6,12 @@ In-app feedback board for iOS — users post feedback, vote, and comment. [getfe
 
 Xcode → File → Add Package Dependencies → `https://github.com/getfedo/fedo-ios`
 
-Fedo is in beta: set the dependency rule to **Exact Version** `0.3.0-beta.1` (SwiftPM skips pre-releases for "Up to Next Major").
+Fedo is in beta: set the dependency rule to **Exact Version** `0.4.0-beta.1` (SwiftPM skips pre-releases for "Up to Next Major").
 
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/getfedo/fedo-ios", exact: "0.3.0-beta.1")
+.package(url: "https://github.com/getfedo/fedo-ios", exact: "0.4.0-beta.1")
 ```
 
 Requires iOS 16+, Xcode 26+.
