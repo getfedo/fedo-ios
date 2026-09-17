@@ -28,13 +28,14 @@ struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                NavigationLink("Feedback") { FeedbacksView() }
+                NavigationLink("Feedback") { FedoFeedbackView() }
             }
         }
     }
 }
 ```
 
-See [docs.getfedo.com](https://docs.getfedo.com/guide/getting-started/) for documentation and walk through
-
-See [CHANGELOG.md](CHANGELOG.md) for release notes.
+See Also: 
+- [example app](https://github.com/getfedo/fedo-ios-example)
+- [docs.getfedo.com](https://docs.getfedo.com/guide/getting-started/) for documentation and walk through
+- [CHANGELOG.md](CHANGELOG.md) for release notes.
