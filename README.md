@@ -35,7 +35,12 @@ struct MyApp: App {
 }
 ```
 
-See Also: 
-- [example app](https://github.com/getfedo/fedo-ios-example)
-- [docs.getfedo.com](https://docs.getfedo.com/guide/getting-started/) for documentation and walk through
+## Links
+
+- Website: https://getfedo.com
+- Docs: https://docs.getfedo.com/sdk/getting-started/
+- Data the SDK collects: https://docs.getfedo.com/sdk/user-management/ and https://getfedo.com/privacy
+- Pricing: https://getfedo.com/pricing (free on one app)
+- Example app: https://github.com/getfedo/fedo-ios-example
 - [CHANGELOG.md](CHANGELOG.md) for release notes.
+
