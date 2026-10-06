@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.4.0-beta.2] - 2026-10-06
 
-- feedback-filter-toolbar-menu: Move the feedback status filter into a toolbar menu by @mabd in [#3](https://git.mabd.dev/fedo/fedo-ios-internal/pulls/3)
+- feedback-filter-toolbar-menu: Move the feedback status filter into a toolbar menu by @mabd-dev 
 - Disallow Fedo re-initialization
 - Rename `FeedbacksView` to `FedoFeedbackView`
 
@@ -71,5 +71,6 @@ First public beta.
 - Swift 6 language mode, iOS 16+.
 
 
-[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.1...HEAD
+[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.2...HEAD
+[0.4.0-beta.2]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.1...0.4.0-beta.2
 [0.4.0-beta.1]: https://github.com/getfedo/fedo-ios/releases/tag/0.4.0-beta.1
