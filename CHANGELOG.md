@@ -8,9 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.4.0-beta.3] - 2026-10-11
+
+- fix/vote-main-thread-publish: Deliver feedback and comment updates on the main thread, fixing the "Publishing changes from background threads" warning when voting from the feedback detail screen by @mabd in [#6](https://git.mabd.dev/fedo/fedo-ios-internal/pulls/6)
+- fix/buildWarnings: fix build warning - due to macos + xcode updates by @mabd in [#5](https://git.mabd.dev/fedo/fedo-ios-internal/pulls/5)
+- watermark-bar-all-screens: Pin the "Powered by Fedo" watermark as a bottom bar on every screen, with the iOS 26 scroll-edge fade by @mabd in [#4](https://git.mabd.dev/fedo/fedo-ios-internal/pulls/4)
+
 ## [0.4.0-beta.2] - 2026-10-06
 
-- feedback-filter-toolbar-menu: Move the feedback status filter into a toolbar menu by @mabd-dev 
+- feedback-filter-toolbar-menu: Move the feedback status filter into a toolbar menu by @mabd in [#3](https://git.mabd.dev/fedo/fedo-ios-internal/pulls/3)
 - Disallow Fedo re-initialization
 - Rename `FeedbacksView` to `FedoFeedbackView`
 
@@ -71,6 +77,5 @@ First public beta.
 - Swift 6 language mode, iOS 16+.
 
 
-[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.2...HEAD
-[0.4.0-beta.2]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.1...0.4.0-beta.2
+[Unreleased]: https://github.com/getfedo/fedo-ios/compare/0.4.0-beta.1...HEAD
 [0.4.0-beta.1]: https://github.com/getfedo/fedo-ios/releases/tag/0.4.0-beta.1
