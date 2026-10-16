@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Fedo",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v17)],
     products: [
         .library(name: "FedoKit", targets: ["FedoKit"]),
     ],

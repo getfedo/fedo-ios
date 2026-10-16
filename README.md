@@ -14,7 +14,7 @@ Or in `Package.swift`:
 .package(url: "https://github.com/getfedo/fedo-ios", exact: "0.4.0-beta.3")
 ```
 
-Requires iOS 16+, Xcode 26+.
+Requires iOS 17+, Xcode 26+.
 
 ## Usage
 
