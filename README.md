@@ -9,7 +9,7 @@ Xcode → File → Add Package Dependencies → `https://github.com/getfedo/fedo
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/getfedo/fedo-ios", exact: "0.4.0")
+.package(url: "https://github.com/getfedo/fedo-ios", from: "0.4.0")
 ```
 
 Requires iOS 17+, Xcode 26+.
