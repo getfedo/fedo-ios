@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.5.0] - 2026-10-25
+
+### Breaking
+- `FedoConfig(networkTimeout:logLevel:)` (deprecated in 0.4.0) and `FedoLogLevel.none` removed. Pass a `logHandler` that filters on `entry.level`; omit it to log nothing
+
+### Added
+- **Comment replies** — reply to any comment. Threads nest with thread lines; the composer shows "Replying to @name" and ⓧ cancels the reply but keeps the draft. Hidden on boards where replies aren't enabled
+- Comments load 20 at a time as you scroll; long threads collapse behind "Show n more replies"
+- Deleting a comment that has replies leaves a "Comment deleted" placeholder and keeps the replies
+- Toasts for posting, deleting, copying and failures; a failed reply keeps your text
+- Stable `fedo.*` accessibility identifiers on comment rows, composer, header and delete confirmation for UI tests (same as Android)
+
+### Fixed
+- Keyboard on the feedback detail screen now dismisses when you scroll or tap outside the composer, keeping the draft
+
 ## [0.4.0] - 2026-10-17
 
 ### Breaking
