@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FedoKit",
-            url: "https://github.com/getfedo/fedo-ios/releases/download/0.4.0/FedoKit.xcframework.zip",
-            checksum: "c2d14651582dda732863deed44c39ce38516dad3a04524d1adc57e79270bcc40"
+            url: "https://github.com/getfedo/fedo-ios/releases/download/0.5.0/FedoKit.xcframework.zip",
+            checksum: "ef236438b500bf1a1e14aeda31da43e26fc0966a2a345dc5ee80bb4e9cff6b4d"
         ),
     ]
 )
